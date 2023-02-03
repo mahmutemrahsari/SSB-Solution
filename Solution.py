@@ -1,3 +1,6 @@
+# Mahmut Emrah Sari 
+# 03/02/2023
+
 class Solution:
     def find_anagrams(word_list):
 
