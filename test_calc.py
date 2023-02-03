@@ -31,7 +31,7 @@ class TestSolution(unittest.TestCase):
     #Tester hastigheten
     def test_speed(self):
         #Encoding UTF-8 gjør mulig å lese norske bokstaver korrekt 
-        file_read = open('engtest.txt', 'r', encoding='UTF-8' )
+        file_read = open('population.txt', 'r', encoding='UTF-8' )
         Solution.find_anagrams(word_list=list(set(file_read.read().split())))
         file_read.close()
         end = timer()
